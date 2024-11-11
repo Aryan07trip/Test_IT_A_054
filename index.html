@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <center><span class="dashboard">Dashboard</span></center>
+    <br /><br />
+    <center><span id="user">Welcome Aryan</span></center>
+    <br /><br />
+    <button onclick="fetchdata()" class="btn2">
+      Fetch Top 10 GitHub Users
+    </button>
+    <select name="GitHub_User" id="">
+      <option value="">default</option>
+      <option value="">Alaphabetical</option>
+    </select>
+    <h1>TOP 10 github users</h1>
+    <button onclick="fetchdata()">Fetch GitHub Users</button>
+    <div id="top"></div>   <br> <br> <br>
+    <button class="btn3">Logout</button>
+    <script src="script.js"></script>
+  </body>
+</html>

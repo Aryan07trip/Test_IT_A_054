@@ -1,0 +1,31 @@
+#button1{
+    background-color: #28a475;
+    color: antiquewhite;
+}
+.dashboard{
+    color: rgb(8, 146, 8);
+    background-color: rgb(247, 247, 56);
+    font-size: 30px;
+    font-weight: bold;
+}
+#user{
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+}
+.btn2{
+    font-size: 20px;
+    background-color: rgb(69, 192, 69);
+    border: 2px solid transparent;
+    border-radius: 5px;
+    color:white;
+    padding: 10px;
+}
+.btn3{
+    background-color: rgb(232, 21, 21);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
